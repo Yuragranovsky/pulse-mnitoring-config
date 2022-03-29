@@ -9,7 +9,16 @@ spring:
       sasl:
         mechanism=SCRAM-SHA-256
         jaas:
-          config=org.apache.kafka.common.security.scram.ScramLoginModule required username="v4fj0hpd" password="rsBGyqHMfP_n8U4p1O8gA8ptL4BWxtzz";
+          config=org:
+                   apache:
+                    kafka:
+                      common:
+                         security:
+                           scram:
+                            ScramLoginModule
+                            - required
+                                - username="v4fj0hpd"
+                                - password="rsBGyqHMfP_n8U4p1O8gA8ptL4BWxtzz"
     consumer:
       auto-offset-reset=earliest      
          
