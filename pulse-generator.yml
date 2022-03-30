@@ -1,6 +1,0 @@
-spring:
-  cloud:
-    stream:
-      binding:
-        pulse_generator-out-0:
-          destination=v4fj0hpd-default   
